@@ -1,8 +1,9 @@
 # Canvas3D
+
+<img src="https://github.com/E-Kohei/Canvas3D/blob/main/RubikCubeExample.png" alt="RubikCube"/>
+
+
 JavaFXを使った、シンプルな3Dドローイングライブラリ
-
-<img src="https://github.com/E-Kohei/canvas3D/blob/master/RubikCubeExample.png" alt="RubikCube"/>
-
 
 
 要件
