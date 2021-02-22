@@ -1,10 +1,15 @@
 # Canvas3D
 JavaFXを使った、シンプルな3Dドローイングライブラリ
 
+<img src="https://github.com/E-Kohei/canvas3D/blob/master/RubikCubeExample.png" alt="RubikCube"/>
+
+
 
 要件
 ----
 JavaFX > 11
+
+
 
 使い方
 ---
@@ -16,6 +21,7 @@ Face f3 = new Face(new Point(-1,1,0), new Point(0,-1,0), new Point(0,0,1));
 Face f4 = new Face(new Point(0,-1,0), new Point(1,1,0), new Point(0,0,1));
 Shape3D tetra = new Shape3D(f1, f2, f3, f4);
 ```
+
 2. ```Pane3D```オブジェクトを作成。ここで、カメラの位置、向き、焦点距離なども設定できる。
 ```Java
 Pane3D pane3d = new Pane3D();
@@ -37,6 +43,7 @@ pane3d.add(tetra);
 javac --module-path PATH_TO_FX --add-module javafx.controls Program.java
 java --module-path PATH_TO_FX --add-module javafx.controls Program
 ```
+
 
 
 おまけ　ルービックキューブ
